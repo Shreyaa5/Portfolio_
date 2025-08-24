@@ -18,22 +18,11 @@ This is my **personal portfolio website**, built using **HTML, CSS, and JavaScri
 ---
 
 ## 🚀 Demo  
-🔗 [Live Portfolio](#) *(replace with your deployed link)*  
+🔗 [Live Portfolio](#) 
 
 ---
 
-## 📸 Screenshots  
 
-### Hero Section  
-![Hero Section](./assets/screenshots/hero.png)  
-
-### Skills Section  
-![Skills Section](./assets/screenshots/skills.png)  
-
-### Projects Section  
-![Projects Section](./assets/screenshots/projects.png)  
-
----
 
 ## 🛠️ Tech Stack  
 - **Frontend:** HTML5, CSS3, JavaScript (Vanilla)  
@@ -41,6 +30,5 @@ This is my **personal portfolio website**, built using **HTML, CSS, and JavaScri
 - **Animations:** CSS Keyframes, ScrollReveal.js, Particles.js  
 
 ---
-
-## 📂 Project Structure  
+  
 
