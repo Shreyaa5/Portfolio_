@@ -44,33 +44,34 @@
 
 
   <header class="site-header">
-    <h1 class="logo">SHREYA PAUL</h1>
+    <div class="logo">Shreya Paul</div>
 
      <!-- Hamburger Button -->
-    <button class="hamburger" id="hamburger">
+      <!-- Hamburger for mobile -->
+    <div id="hamburger" class="hamburger">
       <span></span>
       <span></span>
       <span></span>
-    </button>
+    </div>
 
-    <!-- Navigation -->
-    <nav class="nav" id="nav-menu">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#education">Education</a>
-        <a href="#skill">Skill</a>
-        <a href="#experience">Experience</a>
-        <a href="#achievements">Achievements</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-    </nav>
+     <!-- Navigation -->
+    <ul id="nav-menu" class="nav">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skill">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+      <!-- Theme Toggle Button -->  
     <button id="theme-toggle"><i class="fas fa-moon"></i></button>
   </header>
 
 
   <section id="home" class="hero">
   <div class="hero-bg"></div> 
-
   <div class="hero-content">
     <div class="hero-left">
       <img src="images/shreya.png" alt="Shreya Paul" class="hero-img">
@@ -328,10 +329,6 @@
     </div> -->
 
   </div>
-
-  <div class="back-button">
-    <a href="#home" class="btn"><i class="fas fa-arrow-left"></i> Back to Home</a>
-  </div>
 </section>
 
 <!---------------------------------- Achievements Section ----------------------------------------->
@@ -340,11 +337,16 @@
     <h2>Achievements</h2>
   </div>
 
-  <div class="achievements-grid">
+<div class="achievements-grid">
     <div class="achievement-card">
       <i class="fas fa-award"></i>
       <h3>Research Publication</h3>
-      <p>Published paper at ICACA 2024 on <em>“Exploring Selection Strategies in Offspring Music Rhythm Generation.”</em></p>
+      <p>Published paper at ICACA 2024 on 
+        <em>“Exploring Selection Strategies in Offspring Music Rhythm Generation.”</em>
+      </p>
+      <a href="https://link.springer.com/chapter/10.1007/978-981-97-4799-3_26" target="_blank" class="btn-paper">
+        📄 View Paper
+      </a>
     </div>
 
     <div class="achievement-card">
